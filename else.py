@@ -213,26 +213,154 @@
 
 # crea un listado con 5 numeros. si el tercer numero es mayor que 10, muestra "mayor a 10", si no, muestra "menor o igual a 10".
 
-lista = [5,10,23,10,3]
+# lista = [5,10,23,10,3]
 
-if lista[2] > 10:
-    print("mayor a 10")
-else:
-    print("menor o igual a 10")
+# if lista[2] > 10:
+#     print("mayor a 10")
+# else:
+#     print("menor o igual a 10")
 
-# verifica si el numero 7 esta en la lista [3, 5, 7, 9] si esta, muestra "Esta en la lista", si no, muestra "No esta en la lista".
+# # verifica si el numero 7 esta en la lista [3, 5, 7, 9] si esta, muestra "Esta en la lista", si no, muestra "No esta en la lista".
+# numeros = [3, 5, 7, 9]
+
+# if 7 in numeros:
+#     print("Está en la lista")
+# else:
+#     print("No está en la lista")
+
+# #suma los dos primeros elementos de la lista [4,6,2,8] si la suma es mayor que 10, muestra "suma alta", de lo contrario, muestra "suma baja"
+
+# numeros = [4, 6, 2, 8]
+
+# suma = numeros[0] + numeros[1]
+
+# if suma > 10:
+#     print("suma alta")
+# else:
+#     print("suma baja")
+
+# #dada la lista ["Ana","luis","pedro","marta"], muestra el ultimo nombre si ese nombre es "marta", muestra "nombre correcto" si no "nombre diferente"
+ 
+# nombres = ["Ana", "luis", "pedro", "marta"]
+
+# ultimo = nombres[-1]  # obtiene el último elemento de la lista
+
+# print(ultimo)
+
+# if ultimo == "marta":
+#     print("nombre correcto")
+# else:
+#     print("nombre diferente")
+
+# #crea una lista con tres colores cambia el segundo color solo si es igual a "azul", y muestra la lista actualizada
+
+# colores = ["rojo", "azul", "verde"]
+
+# if colores[1] == "azul":
+#     colores[1] = "amarillo"  # cambio de ejemplo
+
+# print(colores)
 
 
+# #crea una tupla con los valores [5,8,12,20] si el primer valor es menor que el ultimo muestra "orden ascendente", si no "orden descendente"
+
+# valores = (5, 8, 12, 20)
+
+# if valores[0] < valores[-1]:
+#     print("orden ascendente")
+# else:
+#     print("orden descendente")
+
+# #dada la tupla (25,32,28), verifica si el segundo valor es mayor a 30. si lo es muestra "edad mayor a 30",si no, "edad menor o igual a 30"
+
+# edades = (25, 32, 28)
+
+# if edades[1] > 30:
+#     print("edad mayor a 30")
+# else:
+#     print("edad menor o igual a 30")
+
+# #convierte la tupla (1,2,3) a lista, cambia el segundo valor a 10 solo si es igual a 2, luego vuelve a convetirla a tupla y muestrala
+
+# tupla_original = (1, 2, 3)
+
+# # Convertir a lista
+# lista = list(tupla_original)
+
+# # Cambiar el segundo valor si es igual a 2
+# if lista[1] == 2:
+#     lista[1] = 10
+
+# # Convertir nuevamente a tupla
+# tupla_modificada = tuple(lista)
+
+# # Mostrar la tupla final
+# print(tupla_modificada)
+
+# #dada la tupla (4,9), accede al segundo valor. si es mayor que 5, muestra "coordenada alta", si no, "coordenada baja"
+
+# coordenadas = (4, 9)
+
+# if coordenadas[1] > 5:
+#     print("coordenada alta")
+# else:
+#     print("coordenada baja")
 
 
+# #compara si las tuplas (3,4) y (3,5) son iguales, si lo son, muestra "tuplas iguales", si no, "tuplas diferente"
+
+# tupla1 = (3, 4)
+# tupla2 = (3, 5)
+
+# if tupla1 == tupla2:
+#     print("tuplas iguales")
+# else:
+#     print("tuplas diferentes")
 
 
+# #crea un diccionario con {"nombre": "juan", "edad": 17}. si la edad es mayor o igual a 18, muestra "adulto", si no, muestra "menor de edad"
+
+# persona = {"nombre": "juan", "edad": "17"}
+
+# if int(persona["edad"]) >= 18:
+#     print("adulto")
+# else:
+#     print("menor de edad")
 
 
+# #crea un diccionario {"nombre": "lucia", "edad": 20}. si la edad es mayor a 18, cambia el valor edad a 21. luego muestra el diccionario
+
+# persona = {"nombre": "lucia", "edad": 20}
+
+# if persona["edad"] > 18:
+#     persona["edad"] = 21
+
+# print(persona)
+
+# #crea un diccionario con {"nombre": "carlos"} si la clave "ciudad" no existe, agregala con el valor "bogota" y muestra el diccionario
+
+# persona = {"nombre": "carlos"}
+
+# if "ciudad" not in persona:
+#     persona["ciudad"] = "bogota"
+
+# print(persona)
+
+# #dado el diccionario {"producto": "pan", "precio": 1200}, verifica si la clave "precio" existe. si existe, muestra su valor, si no, muestra "no hay precio"
+
+# producto = {"producto": "pan", "precio": 1200}
+
+# if "precio" in producto:
+#     print(producto["precio"])
+# else:
+#     print("no hay precio")
 
 
+# #crea un diccionario con {"pan": 1200, "leche": 2000}. si "pan" esta en el diccionario muestra su precio; si no muestra "producto no disponible"
 
+# productos = {"pan": 1200, "leche": 2000}
 
-
-
-
+# if "pan" in productos:
+#     print(productos["pan"])
+# else:
+#     print("producto no disponible")
